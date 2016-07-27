@@ -2,6 +2,12 @@
 
 namespace CrazyOpendata\Core;
 
+use CrazyOpendata\Core\Export\CSV;
+use CrazyOpendata\Core\Export\GeoJSON;
+use CrazyOpendata\Core\Export\JSON;
+use CrazyOpendata\Core\Export\Mysql;
+use CrazyOpendata\Core\Export\KML;
+
 abstract class Export
 {
 
