@@ -1,4 +1,5 @@
-== CrazyOpendata Core ==
+CrazyOpendata Core
+==================
 
 This repository provides libraries and tools to help exporting opendata into differents file formats.
 
@@ -7,7 +8,9 @@ It is not needed if you just want to use the existing data in the repository, bu
 - Create new export format
 - Modify an existing export format
 
-=== Supported formats ===
+Supported formats
+-----------------
+
 - CSV
 - Mysql
 - JSON
