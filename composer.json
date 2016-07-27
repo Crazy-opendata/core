@@ -1,0 +1,14 @@
+{
+    "name": "crazy-opendata/core",
+    "description": "Code for importing/exporting data to repositories",
+    "authors": [
+        {
+            "name": "Thibault Taillandier",
+            "email": "thibault@taillandier.name"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "CrazyOpendata\\Core\\": "src/" }
+    }
+}
+
