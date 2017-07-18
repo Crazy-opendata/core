@@ -15,7 +15,7 @@ class Mysql extends Export
         $mysql_cmd   = "/usr/bin/mysqldump "
             ." -u".$this->config->mysqlUser
             ." -p".$this->config->mysqlPass
-            ." --extended-insert=false --skip-dump-date --skip-add-drop-table ";
+            ." --complete-insert --extended-insert=false --skip-dump-date --skip-add-drop-table ";
 
         $where_sql = "";
         $where_option="";
